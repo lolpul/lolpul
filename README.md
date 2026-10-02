@@ -34,6 +34,10 @@ ArduPilot, embedded Linux, electronics and sensor integration, Lua scripting, te
 
 [Case study](https://elisey.kochura.com/work/uav-flight-systems) · [GitHub examples](https://github.com/lolpul/ardupilot-lua-scripts)
 
+## Additional public code
+
+[3D Printing Order Website](https://github.com/lolpul/3d-printing-order-website) is a full public MVP built with Next.js, TypeScript, Prisma, PostgreSQL and Docker, with tests. Its README links directly to validation, admin actions, image storage, authentication and SEO implementations.
+
 ## Engineering areas
 
 - Backend & systems — APIs, application behavior and component boundaries.

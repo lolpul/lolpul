@@ -1,14 +1,12 @@
-# GitHub profile memory — v2 · 2026-10-02
+# GitHub profile memory - v3 (2026-10-02)
 
-- Purpose: minimal public engineering profile for Elisey Kochura.
-- Repository: https://github.com/lolpul/lolpul, PUBLIC by explicit owner request; main.
-- Source of truth: README.md, linked portfolio, three documentation-only showcases and independently prepared public ArduPilot Lua examples.
-- Content boundary: public professional identity/contact and confirmed engineering scope only. No private product source, employer identity, credentials, topology, metrics or invented employment dates.
-- Stage constraints: Kochura beta onboarding with planned automation; networking experimental R&D; Android active development; UAV public overview plus independent read-only Lua demonstrations; no employer code or flight-validation claim.
-- Verification: review full tracked manifest, public links and noreply commit identity before push; compare remote head/content afterward.
-- Next: keep profile, case studies and showcase stages consistent. Profile account metadata is owner-managed when current CLI permission is insufficient.
-- Record: [publication](patches/2026-10-01-profile-readme.md).
-
-- New UAV link: https://github.com/lolpul/ardupilot-lua-scripts, verified PUBLIC on main. Demonstrations explain one reviewed source example through three new focused implementations; local/CI host results are distinct from unperformed SITL/bench work.
-- Verification for this update: focused README/documentation diff, public repository visibility/tree and noreply identity checked before normal main push; exact profile head and remote README are verified after publishing.
-- Latest record: [ArduPilot integration](patches/2026-10-02-ardupilot-examples.md). Pre-change README/memory/local config/note copies are in ignored timestamped .backups/. No website deployment or account setting change.
+- Purpose: concise engineering profile for Elisey Kochura; four main directions retained.
+- Repository: https://github.com/lolpul/lolpul, PUBLIC by owner request; main.
+- README links portfolio, three independently written software showcases with tests/green CI, independent public Lua examples, and the full public 3D website.
+- Additional public code: verified 3D MVP stack Next.js / TypeScript / Prisma / PostgreSQL / Docker / tests; five implementation highlights in its README.
+- Boundaries: Kochura beta API with deployment automation planned; networking experimental R&D; Android active development; UAV host examples distinct from professional R&D and unperformed flight validation. No private source, employer identity, topology, credentials or invented metrics.
+- Verification: documentation diff/whitespace, public repository/file links and confidentiality review; no application tests or profile CI invented.
+- Delivery: normal main commit/push, remote HEAD and README verification. Public identity uses owner-approved contact and noreply commit email.
+- Backup: ignored timestamped .backups/2026-10-02-222309-public-code contains README, memory, Obsidian note and manifest.
+- Latest patch: [additional public code](patches/2026-10-02-public-code.md).
+- Next: keep code evidence and project-stage wording consistent with portfolio; account settings/pinning remain owner-managed.
