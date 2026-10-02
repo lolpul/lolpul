@@ -28,11 +28,11 @@ Native Kotlin/Compose client under active development, connecting application st
 
 [Case study](https://elisey.kochura.com/work/android-networking) · [GitHub showcase](https://github.com/lolpul/vpn-android-showcase)
 
-### UAV Systems
+### UAV / ArduPilot Engineering
 
-ArduPilot, embedded Linux, electronics and sensor integration, Lua scripting, telemetry, and preparation for ground and flight testing. Public overview only; employer-specific systems are not disclosed.
+ArduPilot, embedded Linux, electronics and sensor integration, Lua scripting, telemetry, and preparation for ground and flight testing. Independently prepared Lua examples demonstrate sensor-event handling, guarded state machines and virtual control ownership with host tests; employer-specific systems are not disclosed.
 
-[Case study](https://elisey.kochura.com/work/uav-flight-systems)
+[Case study](https://elisey.kochura.com/work/uav-flight-systems) · [GitHub examples](https://github.com/lolpul/ardupilot-lua-scripts)
 
 ## Engineering areas
 
