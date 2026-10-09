@@ -1,55 +1,65 @@
 # Elisey Kochura
 
-**R&D / Software Engineer**
+**R&D / Software Engineer — backend, systems and embedded integration**
 
-I build technical systems across software, Linux infrastructure, embedded hardware and UAV systems.
+I work across software, electronics, embedded Linux, server infrastructure and UAV systems. My work connects component boundaries with implementation, diagnosis and verification.
 
-[Portfolio](https://elisey.kochura.com) · [Email](mailto:hello@kochura.com)
+Open to Python Backend, Go Backend, Systems, Embedded Linux, IoT and R&D roles, including remote work.
 
-Open to remote software, systems, embedded and R&D opportunities.
+[Engineering portfolio and case studies](https://elisey.kochura.com) · [hello@kochura.com](mailto:hello@kochura.com)
 
-## Selected work
+## Selected engineering work
 
-### Kochura Deploy
+### Python backend — validation and failure boundaries
 
-Product website and beta-application API for a planned deployment platform for bots and small applications. Python, FastAPI, SQLite and containerized Linux hosting; deployment automation remains future work.
+[Kochura Deploy showcase](https://github.com/lolpul/kochura-deploy-showcase): a small FastAPI application with strict input models, injected storage/delivery interfaces and persistence-before-notification ordering. A failed notification is a separate outcome from acceptance.
 
-[Case study](https://elisey.kochura.com/work/kochura-deploy) · [GitHub showcase](https://github.com/lolpul/kochura-deploy-showcase) · [Live beta website](https://deploy.kochura.com)
+[Service code](https://github.com/lolpul/kochura-deploy-showcase/blob/main/examples/application-flow/app/service.py) · [Tests](https://github.com/lolpul/kochura-deploy-showcase/blob/main/examples/application-flow/tests/test_flow.py) · [Actions](https://github.com/lolpul/kochura-deploy-showcase/actions/workflows/python.yml) · [Case study](https://elisey.kochura.com/work/kochura-deploy)
 
-### Networking Systems
+The public example uses in-memory storage and synthetic inputs. The private product has a website and beta-application API; hosting automation remains planned.
 
-Experimental Go networking foundation: reusable components, explicit contracts and lifecycle verification in controlled Linux/Docker labs.
+### Go systems — cancellation and resource ownership
 
-[Case study](https://elisey.kochura.com/work/lolpul-vpn) · [GitHub showcase](https://github.com/lolpul/lolpul-networking-showcase)
+[Networking showcase](https://github.com/lolpul/lolpul-networking-showcase): three standalone examples of serial writer ownership, cooperative cancellation followed by joining a worker, and cleanup after partial resource acquisition.
 
-### Android Networking
+[Lifecycle code](https://github.com/lolpul/lolpul-networking-showcase/blob/main/examples/session-lifecycle/writer.go) · [Tests](https://github.com/lolpul/lolpul-networking-showcase/blob/main/examples/session-lifecycle/writer_test.go) · [Actions with race checks](https://github.com/lolpul/lolpul-networking-showcase/actions/workflows/go.yml) · [Case study](https://elisey.kochura.com/work/lolpul-vpn)
 
-Native Kotlin/Compose client under active development, connecting application state with backend integration and Android networking services.
+The examples make concurrency contracts reviewable. Real transports and experimental networking protocols stay private; no production VPN or performance claim is implied.
 
-[Case study](https://elisey.kochura.com/work/android-networking) · [GitHub showcase](https://github.com/lolpul/vpn-android-showcase)
+### Embedded / UAV — observable state and fault handling
 
-### UAV / ArduPilot Engineering
+[ArduPilot Lua examples](https://github.com/lolpul/ardupilot-lua-scripts): sensor-event qualification, guarded sequences and virtual resource leases, with mocked firmware boundaries and timing/float32 checks.
 
-ArduPilot, embedded Linux, electronics and sensor integration, Lua scripting, telemetry, and preparation for ground and flight testing. Independently prepared Lua examples demonstrate sensor-event handling, guarded state machines and virtual control ownership with host tests; employer-specific systems are not disclosed.
+[State machine](https://github.com/lolpul/ardupilot-lua-scripts/blob/main/modules/portfolio_sequence.lua) · [Host tests](https://github.com/lolpul/ardupilot-lua-scripts/blob/main/tests/run.lua) · [Actions](https://github.com/lolpul/ardupilot-lua-scripts/actions/workflows/checks.yml) · [Case study](https://elisey.kochura.com/work/uav-flight-systems)
 
-[Case study](https://elisey.kochura.com/work/uav-flight-systems) · [GitHub examples](https://github.com/lolpul/ardupilot-lua-scripts)
+These independent demonstrations read state and emit status text. Host tests do not establish aircraft behavior; SITL, HIL, bench and flight validation remain outside their recorded evidence.
 
-## Additional public code
+### Kotlin — state, lifecycle and stale results
 
-[3D Printing Order Website](https://github.com/lolpul/3d-printing-order-website) is a full public MVP built with Next.js, TypeScript, Prisma, PostgreSQL and Docker, with tests. Its README links directly to validation, admin actions, image storage, authentication and SEO implementations.
+[Android networking showcase](https://github.com/lolpul/vpn-android-showcase): a platform-neutral Kotlin/JVM state holder using StateFlow, coroutines, authoritative startup lookup and guards against superseded results.
 
-## Engineering areas
+[State holder](https://github.com/lolpul/vpn-android-showcase/blob/main/examples/ui-state/src/main/kotlin/example/state/ConnectionModel.kt) · [Tests](https://github.com/lolpul/vpn-android-showcase/blob/main/examples/ui-state/src/test/kotlin/example/state/ConnectionModelTest.kt) · [Actions](https://github.com/lolpul/vpn-android-showcase/actions/workflows/kotlin.yml) · [Case study](https://elisey.kochura.com/work/android-networking)
 
-- Backend & systems — APIs, application behavior and component boundaries.
-- Linux & infrastructure — containerized services and deployment.
-- Embedded & edge — onboard Linux computers and sensors.
-- UAV systems — electronics, flight control and telemetry integration.
-- Product development — scope, implementation and verification.
+This demonstrates application-state reasoning; Compose rendering, Android services and real VPN connectivity require separate integration evidence.
 
-## Current stack
+### Full application — 3D printing service MVP
 
-Go · Python · Linux · Docker · Kotlin · Android · ArduPilot · Embedded Linux
+[3D Printing Order Website](https://github.com/lolpul/3d-printing-order-website): Next.js/TypeScript public and admin pages, Prisma/PostgreSQL data access, server validation, local image processing and SEO.
 
-## Contact
+[Server actions](https://github.com/lolpul/3d-printing-order-website/blob/main/src/app/admin/portfolio/actions.ts) · [Validation tests](https://github.com/lolpul/3d-printing-order-website/blob/main/src/lib/validation.test.ts) · [Local demo and verification](https://github.com/lolpul/3d-printing-order-website/blob/main/docs/verification.md)
 
-[Portfolio](https://elisey.kochura.com) · [hello@kochura.com](mailto:hello@kochura.com) · [GitHub](https://github.com/lolpul)
+Full MVP source is already public. Database-free local demonstration is reproducible; there is no verified public deployment or Actions workflow for this project.
+
+## Tools in context
+
+Python / FastAPI and Go for backend and systems work; Linux / Docker for service environments; Kotlin for Android; TypeScript / Next.js / SQL for applications; ArduPilot / Lua and embedded Linux for integration work. Project code and documented verification define the scope of each claim.
+
+The three software showcases and Lua demonstrations were independently prepared with AI assistance. Their READMEs describe contracts, tradeoffs, reproducible checks and limits; private source, employer materials and operational data remain excluded.
+
+## Кратко по-русски
+
+Я R&D / Software Engineer: работаю на пересечении программирования, электроники, embedded Linux, серверной инфраструктуры и беспилотных систем. Рассматриваю Python Backend, Go Backend, Systems, Embedded Linux, IoT и R&D позиции, включая удалённую работу.
+
+Выше — пять проектов с прямыми ссылками на код и проверки. Публичные примеры показывают конкретные инженерные решения; закрытые продукты и материалы работодателя остаются приватными. Границы проверки указаны в каждом README.
+
+[Портфолио](https://elisey.kochura.com) · [Связаться: hello@kochura.com](mailto:hello@kochura.com)
